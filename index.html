@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surganya Kopi Selingkuh</title>
+    <style>
+        <link rel="stylesheet" alt="style.css"
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ff847c;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+            color: #ff6f61;
+        }
+
+        footer {
+            background: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Surganya Kopi</h1>
+        <p>Website ini dirancang untuk belanja Kopi.</p>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+    <section>
+        <h2>Tentang Kami</h2> 
+        <div class="cards">
+            <div class="card">
+                <img src="kopi 8.jpg" width="300px" height="300px" alt="Gambar 1">
+                <div class="card-content">
+                    <h3>Kopi Cinta</h3>
+                    <p>Kopi Semua Karena cinta.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kopi 7.jpg" width="300px" height="300px" alt="Gambar 2">
+                <div class="card-content">
+                    <h3>Kopi Selingkuh</h3>
+                    <p>Kopi Dengan Rasa Mantan dan Selingkuhan.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="kopi 6.jpg" width="300px" heigth="300px" alt="Gambar 3">
+                <div class="card-content">
+                    <h3>Kopi Dimadu</h3>
+                    <p>Rasa Nikmat Kopi Poligami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Website Menarik. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
